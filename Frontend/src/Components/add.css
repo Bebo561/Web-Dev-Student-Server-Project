@@ -1,0 +1,42 @@
+#addStudents{
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    border-radius: 12px;
+    width: 25vw;
+    height: 65vh;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 37%;
+    margin-top:10vh;
+}
+h1{
+    text-align: center;
+}
+#listbt{
+    margin-left: 45vw;
+    margin-top: 5vh;
+}
+#display{
+    height: 25vh;
+    width: 25vh;
+    margin-left: 40vw;
+}
+table{
+   margin-left: 35vw;
+   margin-top: 2vh;
+   width: 30vw;
+
+}
+table, th, tr{
+    border: 1px solid black;
+}
